@@ -12,12 +12,12 @@ const AboutMePage = () => {
             <TransitionPage />
             <ContainerPage>
                 <Avatar />
-                <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
-                    Toda mi{' '}
+                <h1 className="text-2xl leading-tight text-center md:text-center md:text-4xl md:mt-10">
+                    Mi{' '}
                     <span className="font-bold text-secondary">
                         trayectoria profesional
                     </span>
-                </h1>
+                </h1><br />
 
                 <CounterServices />
 

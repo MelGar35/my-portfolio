@@ -1,15 +1,15 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github, Wrench, Blocks } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/MelGar35",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/melisa-garcía-8422053a/",
     },
     {
         id: 3,
@@ -65,90 +65,88 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Programación Backend",
+        subtitle: "Coderhouse",
+        description: "Desarrollo de aplicaciones modernas con Node.js y framework Express, aplicando técnicas de programación asincrónica en JavaScript del lado del servidor. Experiencia en el uso de bases de datos SQL y NoSQL, gestionando datos de manera eficiente y escalable. Diseño de aplicaciones backend robustas, rápidas y capaces de manejar grandes volúmenes de datos, con un enfoque en escalabilidad y procesos distribuidos. Dominio de técnicas de comunicación entre servicios y despliegue en diferentes plataformas web. Implementación de middleware, gestión de autenticación y autorización, y manejo efectivo de errores para garantizar la estabilidad y seguridad de las aplicaciones.",
+        date: "Nov 2022 ",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "React Js",
+        subtitle: "Coderhouse",
+        description: "Desarrollo de aplicaciones web, utilizando Tailwind CSS para el diseño y estilos, y TypeScript para mejorar la seguridad del código y facilitar el desarrollo escalable. Creación de componentes reutilizables, manejo del estado con hooks y el uso de contextos para la gestión global del estado. Consumo de APIs REST, optimización del rendimiento mediante lazy loading y code splitting, así como en el uso de herramientas como React Router para la navegación y Redux para el manejo de estados más complejos.",
+        date: "Sept 2022",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "JavaScript",
+        subtitle: "Coderhouse",
+        description: "Desarrollo de funcionalidades interactivas, manipulando el DOM y utilizando frameworks/librerías como React.js",
+        date: "Jul 2022",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Desarrollo Web",
+        subtitle: "Coderhouse",
+        description: "Fundamentos para la creación de sitios web basado en las mejores prácticas del diseño web responsive, trabajando con HTML (manejo de estructuras semánticas, accesibilidad, y optimización para SEO) y CSS (diseño responsivo, implementación de estilos avanzados con flexbox, grid y animaciones CSS)",
+        date: "Abr 2022",
     },
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
+        endCounter: 2,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
+        endCounter: 10,
         text: "Clientes satisfechos",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 220,
+        endCounter: 20,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
-    },
-    {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
     },
 ];
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
-    {
         icon: <Pencil />,
         title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario.",
     },
     {
         icon: <Computer />,
         title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades.",
     },
     {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        icon: <Computer />,
+        title: "Backend",
+        description: "Diseño y desarrollo de la parte “invisible” de tu aplicación o sitio web. Bases de datos. Seguridad y protección de datos. ",
     },
     {
         icon: <Rocket />,
         title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas.",
+    },
+    {
+        icon: <Wrench />,
+        title: "Soporte",
+        description: "Actualizaciones, mejoras y soluciones a problemas técnicos para garantizar el correcto funcionamiento de tu app.",
+    },
+    {
+        icon: <Blocks />,
+        title: "Integraciones",
+        description: "Conexión de tu aplicación con servicios externos (sist. de pago, APIs de terceros,etc.) para ampliar sus funcionalidades.",
     },
 ];
 
