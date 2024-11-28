@@ -26,19 +26,19 @@ const Introduction = () => {
                         />
                     </h1>
 
-                    <p className="mx-auto text-center mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
+                    <p className="mx-auto text-center mb-2 text-sm sm:text-base md:text-xl md:mx-0 md:mb-5">
                         Como desarrolladora Fullstack, me dedico a combinar diseño y funcionalidad para crear experiencias digitales eficientes y accesibles.
                     </p>
 
                     <div className="flex items-center justify-center gap-3 md:justify-center md:gap-10">
-                        <a href="/contact"
-                            className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
-                            Contacta conmigo
-                        </a>
-                    </div>
+                    <a href="/contact"
+                       className="px-3 py-2 my-5 transition-all border-2                    cursor-pointer text-sm sm:text-base w-fit text-secondary                    border-secondary rounded-xl hover:shadow-xl                    hover:shadow-secondary">
+                       Contacta conmigo
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
     );
 }
 

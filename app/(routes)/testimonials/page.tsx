@@ -16,9 +16,9 @@ const TestimonialsPage = () => {
             <TransitionPage />
             <div className='flex flex-col justify-center h-lvh'>
                 <CircleImage />
-                <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
-                    Mis
-                    <span className="block font-bold text-secondary">Credenciales</span>
+                <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-3">
+                    Mis{" "}
+                    <span className="font-bold text-secondary">Credenciales</span>
                 </h1>
                 <div className="flex items-center justify-center mt-5">
                     <div>
@@ -34,15 +34,11 @@ const TestimonialsPage = () => {
                                 clickable: true
                             }}
                             modules={[Pagination]}
-                            className="h-[380px] md:h-[300px] w-[270px] md:w-[550px]"
+                            className="h-[310px] md:h-[420px] w-[270px] md:w-[450px]"
                         >
-                            {dataTestimonials.map(({ id, name, description, imageUrl }) => (
+                            {dataTestimonials.map(({ id, imageUrl }) => (
                                 <SwiperSlide key={id}>
-                                    <Image src={imageUrl} alt={name} width="100" height="100" className="mx-auto rounded-full" />
-                                    <h4 className='text-center'>{name}</h4>
-                                    <div className="mt-5 text-center">
-                                        {description}
-                                    </div>
+                                    <Image src={imageUrl} alt="" width="600" height="300" className="mx-auto" />
                                 </SwiperSlide>
                             ))}
                         </Swiper>

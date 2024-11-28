@@ -153,23 +153,23 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "Shanti",
         image: "/image-1.jpg",
-        urlGithub: "https://github.com/MelGar35",
+        urlGithub: "https://github.com/MelGar35/Ecommerce-Shanti-React",
         urlDemo: "#!",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "LCI-Languaje Centers",
         image: "/image-2.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/MelGar35/LCI-Proyecto",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
+        title: "Agustin Chisari",
+        image: "/agustin-c.jpg",
+        urlGithub: "https://github.com/MelGar35/Agustin-Chisari",
         urlDemo: "#!",
     },
     {
@@ -193,63 +193,23 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "#!",
     },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
 ];
 
 export const dataTestimonials = [
     {
         id: 1,
-        name: "George Snow",
-        description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
+        imageUrl: "/titulo-full.jpg",
     },
     {
         id: 2,
-        name: "Juan Pérez",
-        description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
+        imageUrl: "/titulo-back.jpg",
     },
     {
         id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
+        imageUrl: "/titulo-react.jpg",
     },
     {
         id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
-    },
-    {
-        id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
-    },
-    {
-        id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
+        imageUrl: "/titulo-js.jpg",
     },
 ];
