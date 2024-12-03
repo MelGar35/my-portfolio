@@ -17,11 +17,6 @@ export const socialNetworks = [
         src: "#!",
     },
     {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
         id: 5,
         logo: <Twitch size={30} strokeWidth={1} />,
         src: "#!",
@@ -156,21 +151,21 @@ export const dataPortfolio = [
         title: "Shanti",
         image: "/image-1.jpg",
         urlGithub: "https://github.com/MelGar35/Ecommerce-Shanti-React",
-        urlDemo: "#!",
+        urlDemo: "https://youtu.be/-QaYNq2ej9E",
     },
     {
         id: 2,
         title: "LCI-Languaje Centers",
         image: "/image-2.jpg",
         urlGithub: "https://github.com/MelGar35/LCI-Proyecto",
-        urlDemo: "#!",
+        urlDemo: "https://melgar35.github.io/LCI-Proyecto/",
     },
     {
         id: 3,
         title: "Agustin Chisari",
         image: "/agustin-c.jpg",
         urlGithub: "https://github.com/MelGar35/Agustin-Chisari",
-        urlDemo: "#!",
+        urlDemo: "https://youtu.be/aNfk1oOontk",
     },
     {
         id: 4,
