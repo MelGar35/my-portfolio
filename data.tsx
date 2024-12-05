@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github, Wrench, Blocks } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Phone, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github, Wrench, Blocks } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -18,8 +18,8 @@ export const socialNetworks = [
     },
     {
         id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Phone size={30} strokeWidth={1} />,
+        src: "https://api.whatsapp.com/send?phone=5491153255380",
     },
 ];
 
@@ -169,25 +169,12 @@ export const dataPortfolio = [
     },
     {
         id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Club del Creador",
+        image: "/cc-portada.jpg",
+        urlGithub: "https://github.com/MelGar35/CC-Project",
+        urlDemo: "https://clubdelcreador.netlify.app/",
     },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+    
 ];
 
 export const dataTestimonials = [

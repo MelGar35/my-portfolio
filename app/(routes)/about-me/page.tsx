@@ -1,6 +1,5 @@
 "use client"
 
-import { Avatar }  from "@/components/avatar";
 import ContainerPage from "@/components/container-page";
 import CounterServices from "@/components/counter-services";
 import TimeLine from "@/components/time-line";
@@ -11,7 +10,6 @@ const AboutMePage = () => {
         <>
             <TransitionPage />
             <ContainerPage>
-                <Avatar />
                 <h1 className="text-2xl leading-tight text-center md:text-center md:text-4xl md:mt-10 md:mb-0">
                     Mi{' '}
                     <span className="font-bold text-secondary">
