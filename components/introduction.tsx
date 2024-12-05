@@ -27,7 +27,7 @@ const Introduction = () => {
                     </h1>
 
                     <p className="mx-auto text-center mb-2 text-sm sm:text-base md:text-xl md:mx-0 md:mb-5">
-                    "Como desarrolladora Fullstack, me especializo en fusionar diseño y funcionalidad para crear experiencias digitales intuitivas, eficientes y accesibles. Mi objetivo es entregar soluciones tecnológicas que no solo cumplan con los requisitos técnicos, sino que también ofrezcan una experiencia de usuario excepcional."
+                    Como desarrolladora Fullstack, me especializo en fusionar diseño y funcionalidad para crear experiencias digitales intuitivas, eficientes y accesibles. Mi objetivo es entregar soluciones tecnológicas que no solo cumplan con los requisitos técnicos, sino que también ofrezcan una experiencia de usuario excepcional.
                     </p>
 
                     <div className="flex items-center justify-center gap-3 md:justify-center md:gap-10">
